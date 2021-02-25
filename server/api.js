@@ -1,4 +1,6 @@
+//服务端发起请求的工具包
 var rp = require('request-promise');
+//cheerio是jquery核心功能的一个快速灵活而又简洁的实现，主要是为了用在服务器端需要对DOM进行操作的地方
 var cheerio = require('cheerio');
 const express = require('express');
 const router = express.Router();
